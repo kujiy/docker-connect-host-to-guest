@@ -1,6 +1,6 @@
 
-# Connect Docker HOST os to Docker Containers  
-## (I mean) Connect Docker host OS to guest OS  
+# Connect Docker HOST os to Docker Containers Using container's names
+## (I mean) Connect Docker host OS to guest OSby container's names
 ### docker-connect-host-to-guest
 
 This tool allows you to connect your Docker host OS to Docker guest OS using container's name.  
@@ -13,9 +13,8 @@ git clone git@your-container-name:you/project.git
 ````
 You can access your container from your host os by container's name.
 
-Add Docker container names and IPs into /etc/hosts of Docker Host OS
-
-Update /etc/hosts of Docker Host OS to access its containers by container's name  
+This tool adds docker container names and IPs into /etc/hosts of Docker Host OS.
+(This tool updates /etc/hosts ofyour Docker Host OS to access its containers by container's name.)
   
 # Description  
   
@@ -32,7 +31,7 @@ cent7_s
 cent6_s  
 ````  
   
-This tool adds container names and local IPs into your /etc/hosts/ Like this;  
+This tool adds container names and local IPs into your /etc/hosts Like this;  
   
 ````hosts  
 172.17.0.147 gitlab  
