@@ -34,7 +34,7 @@ cent7_s
 cent6_s
 ````
 
-This tool adds container names and local IPs into your /etc/hosts Like this;
+This tool adds/updates container names, domain names, hostnames and local IPs into your /etc/hosts Like this;
 
 ````hosts
 172.17.0.147 gitlab
