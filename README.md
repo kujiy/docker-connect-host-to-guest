@@ -53,6 +53,9 @@ This tool adds/updates container names, domain names, hostnames and local IPs in
 172.17.0.58 cent6_s.exapmle.com
 ````
 
+# Image  
+![](https://raw.githubusercontent.com/kujiy/docker-connect-host-to-guest/master/sample.png)  
+  
 # Installation
 
 Before you use this, you have to install nodejs and npm.
