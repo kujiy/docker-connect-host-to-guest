@@ -91,11 +91,11 @@ docker run -d -name YOUR_CONTAINER_NAME imagename
 
 # History
 ### v0.1
-Add container's name feature
+Add container's name feature.
 Now you can access to your containers using each container name.
 
 ### v0.2
-Add container's domain name and hostname feature
+Add container's domain name and hostname feature.
 Now you can access to your containers using each container domain name or hostname.
 
 ***
