@@ -1,6 +1,6 @@
 
-# Connect Docker HOST os to Docker Containers Using container's names etc
-## (I mean) Connect Docker host OS to guest OS by container names, domain names and hostnames of containers.
+# Docker HOST os to Docker Containers
+## Connect Docker host OS to guest OS by container names, domain names and hostnames.
 ### docker-connect-host-to-guest
 
 This tool allows you to connect your Docker host OS to Docker guest OS using
@@ -93,14 +93,16 @@ docker run -d -name YOUR_CONTAINER_NAME imagename
 ````
 
 # History
-### v0.1
+#### v0.1
 Add container's name feature.
 Now you can access to your containers using each container name.
 
-### v0.2
+#### v0.2
 Add container's domain name and hostname feature.
 Now you can access to your containers using each container domain name or hostname.
 
+#### v0.3
+Fix using with Docker 1.9's new "Docker network" feature
 ***
 
 I hope this helps you.
